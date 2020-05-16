@@ -1,0 +1,26 @@
+<ActionBar>
+    <NavigationButton (tap)="onBackTap()" android.systemIcon="ic_menu_back"></NavigationButton>
+    <Label [text]="item.name"></Label>
+</ActionBar>
+
+
+<StackLayout row= " * * * * *" backgroundColor="#b5d7e6">
+    <Label row="0" text=" Your Clue-" class= "b"></Label>
+    <StackLayout row="1" margin="15" borderRadius="10" backgroundColor="white" padding="10" >
+        <Label  class="m-10 h3"  [text]="item.description" textWrap="true"></Label>
+    </StackLayout>
+    <GridLayout  row="2" class="m-5" rows="auto" columns="*, *" [formGroup]="ansForm"> 
+        <Label class="h3 m-15" row="0" col="0" text="Enter Location ID" textWrap ="true"></Label> 
+        <TextField class="input input-border" id="ansText"
+            hint="Type your answer here!" [text]=''
+            (textChange)="onAnswerChange($event)"
+            row="0" col="1" formControlName="answer">
+        </TextField> 
+    </GridLayout>
+    <Button  row="3" text="Submit" class="btn btn-rounded-sm btn-outline no-border" (onTap)=" onSubmit()"></Button>
+   <Button  row="4" [text]="'Score:' + total" class="btn btn-rounded-sm btn-outline no-border" ></Button>
+   
+   <Button  *ngIf="push" row="2" text="LOCK!!" class="btn btn-rounded-sm btn-outline no-border" (onTap)=" onExecute()"></Button>
+  
+
+</StackLayout>

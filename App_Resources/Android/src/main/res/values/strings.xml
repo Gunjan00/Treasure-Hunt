@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APP_NAME</string>
+    <string name="nativescript_google_maps_api_key">AIzaSyCtscIy-W_uf6dDvgdsYGQiVdcOafZVyp4</string>
+    <string name="title_activity_kimera">Treasure Hunt</string>
+</resources>

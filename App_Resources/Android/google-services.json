@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "438183621033",
+    "firebase_url": "https://treasure-hunt-ff639.firebaseio.com",
+    "project_id": "treasure-hunt-ff639",
+    "storage_bucket": "treasure-hunt-ff639.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438183621033:android:df52f20d6d80b68c0d94b8",
+        "android_client_info": {
+          "package_name": "org.nativescript.treasure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438183621033-h59kicefnke9g85gouovafec7bb1jl9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5uqYBUtNRSCfvlBtlnxycX5Fh2FKirDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438183621033-h59kicefnke9g85gouovafec7bb1jl9a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "438183621033-u560hoodnk2nkhakp1guff73b11dierf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.nativescript.treasure"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
